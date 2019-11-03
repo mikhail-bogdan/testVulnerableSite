@@ -1,0 +1,99 @@
+html{
+	background-color: #fff;
+	margin: 0px;
+	padding: 5px;
+	font-size: 25pt;
+	font-family: sans-serif;
+}
+
+html *{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	padding: 20px 0px;
+	margin-bottom: 30px;
+	background-color: #3498db;
+}
+
+header ul{
+	list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul li{
+	display: inline-block;
+}
+
+header ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px;
+}
+
+header ul li a:hover{
+	color: #f7dc6f;
+}
+
+footer{
+	text-align: center;
+	padding-top: 500px;
+}
+
+.menu-delimiter{
+	border-right: 1px solid #fff;
+}
+
+.error_message{
+	text-align: center;
+}
+
+.indicator-normal-state{
+	fill: #58d68d;
+}
+
+.indicator-alert-state{
+	fill: #e74c3c;
+}
+
+.indicator-off-state{
+	fill: #ddd;
+}
+
+.indicator-on-state{
+	fill: #f7dc6f;
+}
+
+.load-indicator{
+	min-width: 100px;
+	width: 100%;
+	padding: 1%;
+}
+
+.button-indicator{
+	min-width: 100px;
+	width: 100%;
+	padding: 1%;
+}
+
+.indicator-panel{
+	padding: 1% 0;
+}
+
+@media (min-aspect-ratio: 1/1){
+	.load-indicator{
+		width: 20%;
+	}
+	
+	.button-indicator{
+		width: 20%;
+	}
+	
+	.indicator-panel{
+		display: flex;
+		justify-content: space-around;
+	}
+}
