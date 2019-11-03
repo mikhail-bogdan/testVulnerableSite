@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block articles %}
+<article>
+	<div class="auth-form">
+		<form method="post">
+			<p><input name="login" type="text" placeholder="Login"/></p>
+			<p><input name="password" type="password" placeholder="Password"/></p>
+			<p class="error-message">{{ errorMessage }}</p>
+			<p><input type="submit" value="Log in"/></p>
+		</form>
+	</div>
+</article>
+{% endblock %}

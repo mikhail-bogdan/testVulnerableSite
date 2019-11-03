@@ -128,7 +128,7 @@ function animation(){
 	}
 	
 	this.nIteration = this.nIteration - 2;
-	setTimeout(animation, 15);
+	setTimeout(animation, 10);
 }
 
 animation();

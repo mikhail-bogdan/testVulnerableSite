@@ -4,23 +4,15 @@
 		<title>Control panel</title>
 		<link rel="stylesheet" type="text/css" href="/static/style.css">
 	</head>
-	<body>
-		<header>
-			<ul>
-				<li><a href="/">Main</a></li>
-				<li class="menu-delimiter"></li>
-				<li><a href="/settings">Settings</a></li>
-				<li class="menu-delimiter"></li>
-				<li><a href="/about">About</a></li>
-			</ul>
-		</header>
+	<body>		
+		{% block header %}
+		{% endblock %}
 		
 		{% block articles %}
 		{% endblock %}
 		
-		<footer>
-			<p>&copy All rights reserved 2019</p>
-		</footer>
+		{% block footer %}
+		{% endblock %}
 	</body>
 
 {% block links %}

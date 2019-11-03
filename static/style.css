@@ -43,12 +43,34 @@ footer{
 	padding-top: 500px;
 }
 
+form{
+	display: inline-block;
+	text-align: left;
+	padding: 20px;
+	box-shadow: 0 0 5px 2px #ddd;
+}
+
+form input{
+	font-size: 25pt;
+	width: 100%;
+	margin: 10px 5px;
+	padding: 3px 10px;
+	border: 2px solid #ddd;
+}
+
+form input[type="submit"]{
+	background-color: #3498db;
+	color: #fff;
+}
+
 .menu-delimiter{
 	border-right: 1px solid #fff;
 }
 
-.error_message{
+.error-message{
 	text-align: center;
+	font-style: italic;
+	color: red;
 }
 
 .indicator-normal-state{
@@ -81,6 +103,13 @@ footer{
 
 .indicator-panel{
 	padding: 1% 0;
+}
+
+.auth-form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 }
 
 @media (min-aspect-ratio: 1/1){
