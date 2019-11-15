@@ -112,6 +112,13 @@ form input[type="submit"]{
 	height: 100%;
 }
 
+.register-form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
 @media (min-aspect-ratio: 1/1){
 	.load-indicator{
 		width: 20%;
